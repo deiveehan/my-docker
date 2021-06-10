@@ -34,7 +34,12 @@ docker rm -f <processid>
 # Removing all containers
 docker rm -f $(docker ps -a -q)
 docker rmi deiveehan/sampletestimage
+docker container prune
+```
+
+# 2. Running commands 
+```shell script
+docker  run ubuntu sleep 30
 
 ```
 
-# 2. 

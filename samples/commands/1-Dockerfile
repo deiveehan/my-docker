@@ -1,0 +1,4 @@
+FROM ubuntu
+
+CMD sleep 10
+#CMD ["sleep", "30"]
